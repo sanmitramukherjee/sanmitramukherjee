@@ -67,14 +67,10 @@
 
 ### 📉 Galactic Metrics
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanmitramukherjee&theme=tokyo-night&area=true&hide_border=true&bg_color=010101" width="100%" />
-
-<br/>
-
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api?username=sanmitramukherjee&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=010101" width="100%" />
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanmitramukherjee&theme=tokyo-night&area=true&hide_border=true&bg_color=010101" width="100%" />
     </td>
     <td width="50%" align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=sanmitramukherjee&theme=tokyonight&hide_border=true&background=010101" width="100%" />
