@@ -23,10 +23,10 @@
 
 ---
 
-### 🌌 About Me (The Journey)
-I'm an aspiring engineer pursuing my B.Tech in Electronics & Communication Engineering (2022–2026). My passion lies squarely at the intersection of bits and volts—merging the physical world of hardware with the limitless possibilities of software.
-- 🔭 Currently, I'm an intern at **Weevils Drones Pvt. Ltd.**, building cutting-edge UAV technologies.
-- 🌱 Over the years, I've dived deep into everything from building anonymous chat applications (with AI companions!) to developing 3D autonomous drone control interfaces using Pymavlink.
+### 🌌 About Me
+I'm an aspiring engineer pursuing my B.Tech in Electronics & Communication Engineering (2022–2026). My passion lies squarely at the intersection of bits and volts-merging the physical world of hardware with the limitless possibilities of software.
+- 🔭 Currently, I'm an intern at **Weevils Drones Pvt. Ltd.**, building cutting-edge drone technologies.
+- 🌱 Over the years, I've dived deep into everything from building anonymous chat applications to developing 3D autonomous drone control interfaces & integration with live drones.
 - ⚡ Fun fact: My [3D Interactive Portfolio](https://sanmitramukherjee.vercel.app/) is basically a mini-universe you can explore!
 
 ---
