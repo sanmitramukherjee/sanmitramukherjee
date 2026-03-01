@@ -30,10 +30,15 @@
 </p>
 
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
 <!-- ### Tech Arsenal -->
 <p align="center">
+  <img src="https://64.media.tumblr.com/7d56e9c4c243883a991f860fb7f0f679/tumblr_miqmsmP9hY1s58vfoo1_500.gif" width="100" alt="Tech Scanner" />
+</p>
+<p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,cs,cpp,lua,js,html,css,react,nodejs,mongodb,express,git,vite,vscode,postman," />
+    <img src="https://skillicons.dev/icons?i=py,cs,cpp,lua,js,html,css,react,nodejs,mongodb,express,git,vite,vscode,postman,powershell" />
   </a>
 </p>
 
@@ -65,5 +70,50 @@
 
 <!-- ### The Hungry Snake -->
 <img src="https://raw.githubusercontent.com/sanmitramukherjee/sanmitramukherjee/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
+
+<br/>
+
+<!-- ### 🛸 Featured In Orbit -->
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/sanmitramukherjee/WhisperCave">
+        <img src="https://img.shields.io/badge/WhisperCave-Llama%203.3%20|%20MERN-00FFCC?style=for-the-badge&logo=github&logoColor=black" /><br/>
+        <b>WhisperCave</b><br/>
+        <img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,express" height="25" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="#">
+        <img src="https://img.shields.io/badge/FC__Demo-UAV%20Autonomous-0077FF?style=for-the-badge&logo=github&logoColor=white" /><br/>
+        <b>3D Drone Viewer</b><br/>
+        <img src="https://skillicons.dev/icons?i=py,cpp" height="25" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/sanmitramukherjee/TourneyGen">
+        <img src="https://img.shields.io/badge/TourneyGen-Fullstack-FF3366?style=for-the-badge&logo=github&logoColor=white" /><br/>
+        <b>TourneyGen</b><br/>
+        <img src="https://skillicons.dev/icons?i=js,html,css" height="25" />
+      </a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/sanmitramukherjee/SellnBuyBooksV2">
+        <img src="https://img.shields.io/badge/SellnBuyBooksV2-Inventory-FFDD00?style=for-the-badge&logo=github&logoColor=black" /><br/>
+        <b>SellnBuyBooks</b><br/>
+        <img src="https://skillicons.dev/icons?i=js,mongodb,nodejs" height="25" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=5000&pause=2000&color=00FFCC&center=true&vCenter=true&width=800&height=50&lines=The+universe+is+under+no+obligation;to+make+sense+to+you.++%F0%9F%9A%80" alt="Space Quote" />
+</p>
 
 </div>
