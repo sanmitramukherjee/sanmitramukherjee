@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner -->
-<img src="./assets/banner.png" width="800" alt="Sanmitra's Universe" />
+<img src="./assets/banner.png" width="600" alt="Sanmitra's Universe" />
 
 <!-- Animated typing effect -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&height=60&lines=Hi+there!+%F0%9F%91%8B+I'm+Sanmitra+Mukherjee;Software+Developer;Electronics+Enthusiast;Drone+Hobbyist" alt="Typing SVG" />
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://sanmitramukherjee.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=PlanetScale&logoColor=00FFCC" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/sanmitra-mukherjee/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -29,7 +29,7 @@
 
 <table align="center" width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" align="left">
       <h4>🔭 Current Focus</h4>
       <ul>
         <li>Building <b>Autonomous UAV</b> systems</li>
@@ -37,7 +37,7 @@
         <li>Exploring <b>3D Web</b> experiences</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" align="left">
       <h4>⚡ Terminal Stats</h4>
       <ul>
         <li><b>Code:</b> Bits & Volts Enthusiast</li>
@@ -71,24 +71,32 @@
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/sanmitramukherjee/WhisperCave">
-        <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api/pin/?username=sanmitramukherjee&repo=WhisperCave&theme=tokyonight&border_radius=10&bg_color=0D1117" />
+        <br><b>🕳️ WhisperCave</b><br>
+        <i>Anonymous AI Chat</i><br>
+        <img src="https://img.shields.io/github/stars/sanmitramukherjee/WhisperCave?style=social" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/sanmitramukherjee/FC_Demo">
-        <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api/pin/?username=sanmitramukherjee&repo=FC_Demo&theme=tokyonight&border_radius=10&bg_color=0D1117" />
+        <br><b>🛸 FC_Demo</b><br>
+        <i>Drone Controller</i><br>
+        <img src="https://img.shields.io/github/stars/sanmitramukherjee/FC_Demo?style=social" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <a href="https://github.com/sanmitramukherjee/TourneyGen">
-        <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api/pin/?username=sanmitramukherjee&repo=TourneyGen&theme=tokyonight&border_radius=10&bg_color=0D1117" />
+        <br><b>🏆 TourneyGen</b><br>
+        <i>Tournament Maker</i><br>
+        <img src="https://img.shields.io/github/stars/sanmitramukherjee/TourneyGen?style=social" />
       </a>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/sanmitramukherjee/SellnBuyBooksV2">
-        <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api/pin/?username=sanmitramukherjee&repo=SellnBuyBooksV2&theme=tokyonight&border_radius=10&bg_color=0D1117" />
+        <br><b>📚 SellnBuyBooks</b><br>
+        <i>Book Marketplace</i><br>
+        <img src="https://img.shields.io/github/stars/sanmitramukherjee/SellnBuyBooksV2?style=social" />
       </a>
     </td>
   </tr>
