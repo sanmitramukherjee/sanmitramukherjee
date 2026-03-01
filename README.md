@@ -22,7 +22,7 @@
   </a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 👨‍🚀 The Expedition
 
@@ -30,7 +30,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=15&duration=4000&pause=500&color=00FF00&background=010101&vCenter=true&multiline=true&width=700&height=140&lines=root@sanmitra:~%24+./fetch_bio.sh;%5B+%2B+%5D+Loading+Education...+B.Tech+in+ECE;%5B+%2B+%5D+Loading+Role........+Tech+Evangelist+%26+Intern+@+Weevils+Drones;%5B+%2B+%5D+Loading+Focus.......+Autonomous+UAVs+%26+Real-time+AI;%5B+%2B+%5D+Status..............+Ready+for+liftoff!+%F0%9F%9A%80" alt="Animated Terminal Bio" />
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🛠️ Tech Arsenal
 
@@ -51,7 +51,7 @@
   </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 📉 Galactic Metrics
 
@@ -66,7 +66,7 @@
   </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 ### 🐍 The Code Snake
 
