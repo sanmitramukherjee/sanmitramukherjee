@@ -35,7 +35,7 @@
 
 <p align="center">
   <marquee scrollamount="5" width="80%">
-    <img src="https://skillicons.dev/icons?i=py,cs,cpp,lua,js,html,css,react,nodejs,mongodb,express,git,vite,vscode,postman,powershell,arduino,matlab,github,linux" />
+    <img src="https://skillicons.dev/icons?i=py,cs,cpp,lua,js,html,react,nodejs,mongodb,express,git,vite,vscode,postman,arduino,linux" />
   </marquee>
 </p>
 
