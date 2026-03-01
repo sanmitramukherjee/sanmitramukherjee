@@ -33,13 +33,14 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <!-- ### Tech Arsenal -->
+<div align="center">
+  <img src="https://64.media.tumblr.com/7d56e9c4c243883a991f860fb7f0f679/tumblr_miqmsmP9hY1s58vfoo1_500.gif" width="100" />
+</div>
+
 <p align="center">
-  <img src="https://64.media.tumblr.com/7d56e9c4c243883a991f860fb7f0f679/tumblr_miqmsmP9hY1s58vfoo1_500.gif" width="100" alt="Tech Scanner" />
-</p>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,cs,cpp,lua,js,html,css,react,nodejs,mongodb,express,git,vite,vscode,postman,powershell" />
-  </a>
+  <marquee scrollamount="5" width="80%">
+    <img src="https://skillicons.dev/icons?i=py,cs,cpp,lua,js,html,css,react,nodejs,mongodb,express,git,vite,vscode,postman,powershell,arduino,matlab,github,linux" />
+  </marquee>
 </p>
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
@@ -71,49 +72,45 @@
 <!-- ### The Hungry Snake -->
 <img src="https://raw.githubusercontent.com/sanmitramukherjee/sanmitramukherjee/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
 
-<br/>
+<!-- ### Project Showcase -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+</div>
 
-<!-- ### 🛸 Featured In Orbit -->
+### 🚀 WhisperCave
+> **Real-time AI Chat Ecosystem**  
+> An anonymous chat platform integrated with Llama 3.3 for intelligent companionship.  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,express,vite" height="25" />
+</p>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/WhisperCave">
-        <img src="https://img.shields.io/badge/WhisperCave-Llama%203.3%20|%20MERN-00FFCC?style=for-the-badge&logo=github&logoColor=black" /><br/>
-        <b>WhisperCave</b><br/>
-        <img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,express" height="25" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="#">
-        <img src="https://img.shields.io/badge/FC__Demo-UAV%20Autonomous-0077FF?style=for-the-badge&logo=github&logoColor=white" /><br/>
-        <b>3D Drone Viewer</b><br/>
-        <img src="https://skillicons.dev/icons?i=py,cpp" height="25" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/TourneyGen">
-        <img src="https://img.shields.io/badge/TourneyGen-Fullstack-FF3366?style=for-the-badge&logo=github&logoColor=white" /><br/>
-        <b>TourneyGen</b><br/>
-        <img src="https://skillicons.dev/icons?i=js,html,css" height="25" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/SellnBuyBooksV2">
-        <img src="https://img.shields.io/badge/SellnBuyBooksV2-Inventory-FFDD00?style=for-the-badge&logo=github&logoColor=black" /><br/>
-        <b>SellnBuyBooks</b><br/>
-        <img src="https://skillicons.dev/icons?i=js,mongodb,nodejs" height="25" />
-      </a>
-    </td>
-  </tr>
-</table>
+### 🛸 FC_Demo (3D Drone Viewer)
+> **Mavlink-based Interceptor Logic**  
+> Control and visualize autonomous UAVs in real-time with precise intercept sequences.  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,cpp,linux,postman" height="25" />
+</p>
+
+### 🏆 TourneyGen
+> **Automated Tournament Engine**  
+> Generate and manage dynamic tournament brackets for gaming and sports.  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,html,css" height="25" />
+</p>
+
+### 📚 SellnBuyBooks
+> **Custom Marketplace Backend**  
+> A streamlined inventory and marketplace system for second-hand literature.  
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,mongodb,nodejs" height="25" />
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=20&duration=5000&pause=2000&color=00FFCC&center=true&vCenter=true&width=800&height=50&lines=The+universe+is+under+no+obligation;to+make+sense+to+you.++%F0%9F%9A%80" alt="Space Quote" />
+  <img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&weight=700&size=35&duration=4000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=800&height=100&lines=The+universe+is+under+no+obligation;to+make+sense+to+you...;Keep+Exploring.+%F0%9F%AA%90" alt="Master Explorer Quote" />
 </p>
 
 </div>
