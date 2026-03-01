@@ -36,9 +36,11 @@ I'm an aspiring engineer pursuing my B.Tech in Electronics & Communication Engin
 <div align="center">
   
 **Core Languages**<br>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 
@@ -50,6 +52,7 @@ I'm an aspiring engineer pursuing my B.Tech in Electronics & Communication Engin
 <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.io" />
 
 <br>**Hardware & Tools**<br>
+<img src="https://img.shields.io/badge/ArduPilot-D14836?style=for-the-badge&logo=ardupilot&logoColor=white" alt="ArduPilot" />
 <img src="https://img.shields.io/badge/UAV_Systems-FF3366?style=for-the-badge&logo=drone&logoColor=white" alt="UAV Systems" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/Vite-B73CE8?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
@@ -60,12 +63,16 @@ I'm an aspiring engineer pursuing my B.Tech in Electronics & Communication Engin
 
 ### 🚀 Featured Projects
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[🕳️ WhisperCave](https://github.com/sanmitramukherjee/WhisperCave)** | Anonymous real-time chat platform with custom rooms, emoji trays, and Llama 3.3 AI personalities (Maria, Jacky, Rowlin). Zero logs, absolute privacy. | `React`, `Node.js`, `Socket.io`, `Groq API` |
-| **[🛸 3D Drone Viewer ](#)** | Autonomous Drone control interface leveraging Pymavlink, featuring 3D tracking capabilities and full SITL simulation support. | `Python`, `Pymavlink`, `SITL` |
-| **[🏆 TourneyGen](https://github.com/sanmitramukherjee/TourneyGen)** | A fully functional, full-stack online tournament maker that dynamically generates brackets with real-time updates. | `MERN Stack` |
-| **[📚 SellnBuyBooksV2](https://github.com/sanmitramukherjee/SellnBuyBooksV2)** | A specialized e-commerce marketplace custom-built for buying and selling second-hand books featuring secure user accounts. | `JavaScript`, `HTML/CSS` |
+<div align="center">
+
+| | |
+| :--- | :--- |
+| **[🕳️ WhisperCave](https://github.com/sanmitramukherjee/WhisperCave)** | Anonymous real-time chat platform with custom rooms, emoji trays, and Llama 3.3 AI personalities (Maria, Jacky, Rowlin). Built with `React`, `Node.js`, `Socket.io`, `Groq API`. |
+| **[🛸 3D Drone Viewer](#)** | Autonomous Drone control interface leveraging Pymavlink, featuring 3D tracking capabilities and full SITL simulation support. Built with `Python`, `Pymavlink`, `SITL`. |
+| **[🏆 TourneyGen](https://github.com/sanmitramukherjee/TourneyGen)** | A fully functional, full-stack online tournament maker that dynamically generates brackets with real-time updates using the `MERN Stack`. |
+| **[📚 SellnBuyBooksV2](https://github.com/sanmitramukherjee/SellnBuyBooksV2)** | A specialized e-commerce marketplace custom-built for buying and selling second-hand books featuring secure user accounts. |
+
+</div>
 
 ---
 
@@ -74,9 +81,9 @@ I'm an aspiring engineer pursuing my B.Tech in Electronics & Communication Engin
 *(Note: The stats below include private contributions as well!)*
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sanmitramukherjee&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117" alt="Sanmitra's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sanmitramukherjee&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=161b22" alt="Sanmitra's GitHub Stats" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanmitramukherjee&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanmitramukherjee&layout=compact&theme=tokyonight&hide_border=true&bg_color=161b22" alt="Top Languages" />
 </div>
 
 ---
