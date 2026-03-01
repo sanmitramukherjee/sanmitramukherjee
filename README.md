@@ -6,6 +6,8 @@
 <!-- Animated typing effect -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&height=60&lines=Hi+there!+%F0%9F%91%8B+I'm+Sanmitra+Mukherjee;Software+Developer;Electronics+Enthusiast;Drone+Hobbyist" alt="Typing SVG" />
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sanmitramukherjee&label=Warp+Travelers&color=00FFCC&style=flat-square" alt="Profile views" />
 </p>
