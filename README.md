@@ -42,7 +42,7 @@
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td width="50%" align="center" style="border: none;">
-      <img src="https://img.shields.io/badge/Hardware-ArduPilot%20|%20Pymavlink%20|%20SITL-D14836?style=for-the-badge&logo=drone&logoColor=white" />
+      <img src="https://img.shields.io/badge/OpenSource-ArduPilot%20|%20mavlink%20|%20SITL-D14836?style=for-the-badge&logo=drone&logoColor=white" />
     </td>
     <td width="50%" align="center" style="border: none;">
       <img src="https://img.shields.io/badge/Backend-Socket.io%20|%20MQTT%20|%20ZMQ-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
