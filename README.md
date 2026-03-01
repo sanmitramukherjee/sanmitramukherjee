@@ -25,28 +25,10 @@
 ---
 
 ### 👨‍🚀 The Expedition
-**Pursuing B.Tech in ECE | Intern @ Weevils Drones | Tech Evangelist**
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top" align="left">
-      <h4>🔭 Current Focus</h4>
-      <ul>
-        <li>Building <b>Autonomous UAV</b> systems</li>
-        <li>Architecting <b>Real-time AI</b> apps</li>
-        <li>Exploring <b>3D Web</b> experiences</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top" align="left">
-      <h4>⚡ Terminal Stats</h4>
-      <ul>
-        <li><b>Code:</b> Bits & Volts Enthusiast</li>
-        <li><b>Hardware:</b> Ardupilot & Mavlink</li>
-        <li><b>Vibe:</b> Space-themed everything</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=500&color=00FFCC&background=010101&vCenter=true&multiline=true&width=800&height=120&lines=[~]+Initializing+Sanmitra.exe...;[~]+Education:++Pursuing+B.Tech+in+ECE;[~]+Role:+++++++Intern+@+Weevils+Drones+|+Tech+Evangelist;[~]+Focus:++++++Autonomous+UAVs,+Real-time+AI,+3D+Web;[~]+Status:+++++Ready+for+liftoff!+🚀" alt="Animated Terminal Bio" />
+</p>
 
 ---
 
@@ -58,10 +40,16 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Hardware-ArduPilot%20|%20Pymavlink%20|%20SITL-D14836?style=for-the-badge&logo=drone&logoColor=white" />
-  <img src="https://img.shields.io/badge/Backend-Socket.io%20|%20MQTT%20|%20ZMQ-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
-</p>
+<table align="center" width="100%" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="50%" align="center" style="border: none;">
+      <img src="https://img.shields.io/badge/Hardware-ArduPilot%20|%20Pymavlink%20|%20SITL-D14836?style=for-the-badge&logo=drone&logoColor=white" />
+    </td>
+    <td width="50%" align="center" style="border: none;">
+      <img src="https://img.shields.io/badge/Backend-Socket.io%20|%20MQTT%20|%20ZMQ-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ---
 
