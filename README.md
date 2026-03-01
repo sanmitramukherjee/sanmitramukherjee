@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner -->
-<img src="./assets/banner.png" width="600" alt="Sanmitra's Universe" />
+<img src="./assets/banner.png" width="100%" alt="Sanmitra's Universe" />
 
 <!-- Animated typing effect -->
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=800&height=60&lines=Hi+there!+%F0%9F%91%8B+I'm+Sanmitra+Mukherjee;Software+Developer;Electronics+Enthusiast;Drone+Hobbyist" alt="Typing SVG" />
@@ -65,10 +65,26 @@
 
 ---
 
+### 📉 Galactic Metrics
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanmitramukherjee&theme=tokyo-night&area=true&hide_border=true&bg_color=010101" width="100%" />
+
+<br/>
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api?username=sanmitramukherjee&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=010101" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sanmitramukherjee&theme=tokyonight&hide_border=true&background=010101" width="100%" />
+    </td>
+  </tr>
+</table>
+
 ---
 
 ### 🐍 The Code Snake
-
 
 <img src="https://raw.githubusercontent.com/sanmitramukherjee/sanmitramukherjee/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
 
