@@ -65,57 +65,10 @@
 
 ---
 
-### 🚀 Projects in Orbit
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/WhisperCave">
-        <br><b>🕳️ WhisperCave</b><br>
-        <i>Anonymous AI Chat</i><br>
-        <img src="https://img.shields.io/github/stars/sanmitramukherjee/WhisperCave?style=social" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/FC_Demo">
-        <br><b>🛸 FC_Demo</b><br>
-        <i>Drone Controller</i><br>
-        <img src="https://img.shields.io/github/stars/sanmitramukherjee/FC_Demo?style=social" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/TourneyGen">
-        <br><b>🏆 TourneyGen</b><br>
-        <i>Tournament Maker</i><br>
-        <img src="https://img.shields.io/github/stars/sanmitramukherjee/TourneyGen?style=social" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/sanmitramukherjee/SellnBuyBooksV2">
-        <br><b>📚 SellnBuyBooks</b><br>
-        <i>Book Marketplace</i><br>
-        <img src="https://img.shields.io/github/stars/sanmitramukherjee/SellnBuyBooksV2?style=social" />
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-### 📉 Galactic Metrics
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanmitramukherjee&theme=tokyo-night&area=true&hide_border=true&bg_color=0D1117" width="100%" />
-
-<br/>
-
-<img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api?username=sanmitramukherjee&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sanmitramukherjee&theme=tokyonight&hide_border=true&background=0D1117" width="48%" />
-
 ---
 
 ### 🐍 The Code Snake
+
 
 <img src="https://raw.githubusercontent.com/sanmitramukherjee/sanmitramukherjee/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
 
