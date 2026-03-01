@@ -66,7 +66,7 @@
 
 <!-- ### Top Languages -->
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-anuraghazras-projects.vercel.app/api/top-langs/?username=sanmitramukherjee&layout=compact&theme=tokyonight&hide_border=true&bg_color=010101&langs_count=8" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanmitramukherjee&layout=compact&theme=tokyonight&hide_border=true&bg_color=010101&langs_count=8" width="40%" />
 </p>
 <!-- ### The Hungry Snake -->
 <img src="https://raw.githubusercontent.com/sanmitramukherjee/sanmitramukherjee/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
