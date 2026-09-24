@@ -21,7 +21,6 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-<!-- <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" /> -->
 
 <!-- ### The Expedition -->
 <p align="center">
@@ -56,10 +55,12 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanmitramukherjee&theme=tokyo-night&area=true&hide_border=true&bg_color=010101" width="100%" />
+      <a href="https://github.com/sanmitramukherjee">
+        <img src="https://github-readme-stats-git-master-anurag90s.vercel.app/api/top-langs/?username=sanmitramukherjee&theme=tokyonight&layout=compact&hide_border=true&bg_color=010101&title_color=00FFCC&text_color=FFFFFF" width="100%" alt="Top Languages" />
+      </a>
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=sanmitramukherjee&theme=tokyonight&hide_border=true&background=010101" width="100%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=sanmitramukherjee&theme=tokyonight" width="100%" alt="GitHub Streak" />
     </td>
   </tr>
 </table>
