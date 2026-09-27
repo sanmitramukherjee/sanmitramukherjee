@@ -1,0 +1,34 @@
+name: Update Profile Cards
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual execution via Actions tab
+
+jobs:
+  update-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install requests matplotlib
+
+      - name: Generate Stats Card
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python generate_cards.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          git add assets/custom-languages.png
+          git diff-index --quiet HEAD || git commit -m "chore: update language statistics card [skip ci]"
+          git push
