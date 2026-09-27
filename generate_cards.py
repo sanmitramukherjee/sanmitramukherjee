@@ -57,7 +57,7 @@ def main():
     lang_counts = defaultdict(int)
     lang_colors = {}
     
-    EXCLUDED_REPOS = ["WeevilsPlanner", "WeevilsPlanner-lite"]
+    EXCLUDED_REPOS = ["WeevilsPlanner", "WeevilsPlanner-lite", "CustomGCS"]
     
     for repo in repos:
         print(repr(repo["name"]))
