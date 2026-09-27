@@ -73,34 +73,32 @@ def main():
     if not lang_counts:
         return
 
-    # Extract top 5 languages
+    # 🌟 FIX 1: Sort cleanly by byte counts (x[1]), NOT language name strings
     sorted_langs = sorted(lang_counts.items(), key=lambda x: x[1], reverse=True)[:5]
     labels = [x[0] for x in sorted_langs]
     sizes = [x[1] for x in sorted_langs]
     colors = [lang_colors.get(l, "#cccccc") for l in labels]
 
-    # Clean the matplotlib cache state completely 
+    # Clean the matplotlib engine states
     plt.clf()
     plt.close('all')
     plt.style.use('dark_background')
     
-    # Create the figure with explicit dimensions
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5), facecolor='#0a0a0a', gridspec_kw={'width_ratios': [1.2, 1]})
+    # Create side-by-side canvas
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4.5), facecolor='#0a0a0a', gridspec_kw={'width_ratios': [1.2, 1]})
     
-    # 🌟 FORCE COLUMN 1: Donut Chart Scale
+    # Left Side: High-res Donut Chart
     ax1.set_facecolor('#0a0a0a')
-    ax1.axis('equal')  # Forces the pie chart to maintain a perfect square/circle shape
-    
     wedges, texts, autotexts = ax1.pie(
         sizes, labels=labels, colors=colors, autopct='%1.1f%%', 
-        startangle=140, pctdistance=0.70, textprops=dict(color="#a9b1d6", weight="bold", fontsize=10)
+        startangle=140, pctdistance=0.75, textprops=dict(color="#a9b1d6", weight="bold", fontsize=10)
     )
 
     centre_circle = plt.Circle((0,0), 0.50, fc='#0a0a0a')
     ax1.add_artist(centre_circle)
     ax1.set_title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=12, weight="bold", pad=15)
 
-    # 🌟 FORCE COLUMN 2: Text Layout Scale
+    # 🌟 FIX 2: Explicitly lock text panel size properties so it cannot compress the chart
     ax2.set_facecolor('#0a0a0a')
     ax2.axis('off') 
     ax2.set_xlim(0, 1)
@@ -113,11 +111,11 @@ def main():
         lines_of_code = int(byte_size / 35)
         loc_text = f"{lines_of_code:,} lines" if lines_of_code > 0 else f"{byte_size} bytes"
         
-        # Draw explicit tiny markers using absolute layout coordinates
-        ax2.scatter(0.05, y_pos + 0.03, color=lang_colors.get(label, "#cccccc"), marker='s', s=60)
+        # Color Box Marker
+        ax2.scatter(0.05, y_pos + 0.03, color=lang_colors.get(label, "#cccccc"), marker='s', s=50)
 
         ax2.text(0.12, y_pos, f"{label}:", color="#ffffff", fontsize=11, weight="bold")
-        ax2.text(0.52, y_pos, loc_text, color="#a9b1d6", fontsize=11)
+        ax2.text(0.55, y_pos, loc_text, color="#a9b1d6", fontsize=11)
         y_pos -= 0.12
         
     plt.tight_layout()
