@@ -43,7 +43,7 @@ def fetch_repositories():
     
     while has_next_page:
         variables = {"login": USERNAME, "endCursor": end_cursor}
-        response = requests.post("https://github.com", json={"query": query, "variables": variables}, headers=headers)
+        response = requests.post("https://api.github.com/graphql", json={"query": query, "variables": variables}, headers=headers)
         if response.status_code != 200:
             raise Exception(f"GraphQL Query failed: {response.text}")
         data = response.json()["data"]["user"]["repositories"]
