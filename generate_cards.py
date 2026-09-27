@@ -52,8 +52,49 @@ def fetch_repositories():
         end_cursor = data["pageInfo"]["endCursor"]
     return repos
 
+def fetch_specific_repos(org_name, repo_names):
+    headers = {"Authorization": f"Bearer {TOKEN}"}
+    extra_repos = []
+
+    single_repo_query = """
+    query($owner: String!, $name: String!) {
+      repository(owner: $owner, name: $name) {
+        name
+        isFork
+        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+          edges {
+            size
+            node {
+              name
+              color
+            }
+          }
+        }
+      }
+    }
+    """
+
+    for repo_name in repo_names:
+        variables = {"owner": org_name, "name": repo_name}
+        response = requests.post("https://api.github.com/graphql", json={"query": single_repo_query, "variables": variables}, headers=headers)
+        if response.status_code != 200:
+            print(f"Failed to fetch {repo_name}: {response.text}")
+            continue
+        data = response.json()
+        repo_data = data.get("data", {}).get("repository")
+        if repo_data:
+            extra_repos.append(repo_data)
+        else:
+            print(f"No data returned for {repo_name}: {data}")
+
+    return extra_repos
+
 def main():
     repos = fetch_repositories()
+
+    # Manually fetch private org repos that the user-affiliation query misses
+    repos += fetch_specific_repos("TheDronePulseLab", ["PulseGCS-Priv", "EASYLink-priv"])
+
     lang_counts = defaultdict(int)
     lang_colors = {}
     
