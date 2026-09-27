@@ -85,24 +85,29 @@ def main():
     ax1.set_facecolor('#0a0a0a')
     ax2.set_facecolor('#0a0a0a')
     ax2.axis('off') 
+    
+    # 🌟 CRITICAL FIX: Lock the text panel coordinates so elements do not shrink down
+    ax2.set_xlim(0, 1)
+    ax2.set_ylim(0, 1)
 
     wedges, texts, autotexts = ax1.pie(
         sizes, labels=labels, colors=colors, autopct='%1.1f%%', 
-        startangle=140, pctdistance=0.75, textprops=dict(color="#a9b1d6", weight="bold")
+        startangle=140, pctdistance=0.75, textprops=dict(color="#a9b1d6", weight="bold", fontsize=10)
     )
 
     centre_circle = plt.Circle((0,0), 0.50, fc='#0a0a0a')
     ax1.add_artist(centre_circle)
-    ax1.set_title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=12, weight="bold", pad=10)
+    ax1.set_title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=12, weight="bold", pad=15)
 
     ax2.text(0.0, 0.85, "📊 Code Volume Breakdown", color="#00FFCC", fontsize=13, weight="bold")
     
-    y_pos = 0.70
+    y_pos = 0.68
     for label, byte_size in sorted_langs:
         lines_of_code = int(byte_size / 35)
         loc_text = f"{lines_of_code:,} lines" if lines_of_code > 0 else f"{byte_size} bytes"
         
-        ax2.plot(0.05, y_pos + 0.02, marker='s', color=lang_colors.get(label, "#cccccc"), markersize=8)
+        # Color Box Marker adjusted for the new clean bounding coordinates
+        ax2.plot(0.05, y_pos + 0.03, marker='s', color=lang_colors.get(label, "#cccccc"), markersize=8)
 
         ax2.text(0.12, y_pos, f"{label}:", color="#ffffff", fontsize=11, weight="bold")
         ax2.text(0.55, y_pos, loc_text, color="#a9b1d6", fontsize=11)
