@@ -60,7 +60,7 @@ def main():
     EXCLUDED_REPOS = ["WeevilsPlanner", "WeevilsPlanner-lite", "CustomGCS"]
     
     for repo in repos:
-        print(repr(repo["name"]))
+        print(f"{repo['name']} | isFork: {repo['isFork']} | languages: {len(repo['languages']['edges'])}")
         if repo["name"] in EXCLUDED_REPOS:
             print(f"Excluding {repo['name']}")
             continue
