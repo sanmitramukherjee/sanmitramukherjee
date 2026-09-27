@@ -9,7 +9,6 @@ USERNAME = "sanmitramukherjee"
 if not TOKEN:
     raise ValueError("GH_TOKEN secret is missing!")
 
-# GraphQL Query targets owner repositories, organization memberships, and external collaborations
 query = """
 query($login: String!, $endCursor: String) {
   user(login: $login) {
@@ -58,7 +57,12 @@ def main():
     lang_counts = defaultdict(int)
     lang_colors = {}
     
+    EXCLUDED_REPOS = ["WeevilsPlanner", "WeevilsPlanner-lite"]
+    
     for repo in repos:
+        if repo["name"] in EXCLUDED_REPOS:
+            continue
+            
         for edge in repo["languages"]["edges"]:
             lang_name = edge["node"]["name"]
             lang_color = edge["node"]["color"]
@@ -75,21 +79,35 @@ def main():
     sizes = [x[1] for x in sorted_langs]
     colors = [lang_colors.get(l, "#cccccc") for l in labels]
 
-    # Theme Styling (Matches Tokyo Night Theme / #0a0a0a Background)
     plt.style.use('dark_background')
-    fig, ax = plt.subplots(figsize=(6, 4.5), facecolor='#0a0a0a')
-    ax.set_facecolor('#0a0a0a')
     
-    wedges, texts, autotexts = ax.pie(
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9.5, 4.5), facecolor='#0a0a0a', gridspec_kw={'width_ratios': [1.2, 1]})
+    ax1.set_facecolor('#0a0a0a')
+    ax2.set_facecolor('#0a0a0a')
+    ax2.axis('off') 
+
+    wedges, texts, autotexts = ax1.pie(
         sizes, labels=labels, colors=colors, autopct='%1.1f%%', 
         startangle=140, pctdistance=0.75, textprops=dict(color="#a9b1d6", weight="bold")
     )
-    
-    # Render inside hole to convert it to a modern Donut Chart
+
     centre_circle = plt.Circle((0,0), 0.50, fc='#0a0a0a')
-    fig.gca().add_artist(centre_circle)
+    ax1.add_artist(centre_circle)
+    ax1.set_title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=12, weight="bold", pad=10)
+
+    ax2.text(0.0, 0.85, "📊 Code Volume Breakdown", color="#00FFCC", fontsize=13, weight="bold")
     
-    plt.title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=14, weight="bold", pad=20)
+    y_pos = 0.70
+    for label, byte_size in sorted_langs:
+        lines_of_code = int(byte_size / 35)
+        loc_text = f"{lines_of_code:,} lines" if lines_of_code > 0 else f"{byte_size} bytes"
+        
+        ax2.plot(0.05, y_pos + 0.02, marker='s', color=lang_colors.get(label, "#cccccc"), markersize=8)
+
+        ax2.text(0.12, y_pos, f"{label}:", color="#ffffff", fontsize=11, weight="bold")
+        ax2.text(0.55, y_pos, loc_text, color="#a9b1d6", fontsize=11)
+        y_pos -= 0.12
+        
     plt.tight_layout()
     
     os.makedirs("assets", exist_ok=True)
