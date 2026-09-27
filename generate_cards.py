@@ -60,10 +60,10 @@ def main():
     EXCLUDED_REPOS = ["WeevilsPlanner", "WeevilsPlanner-lite"]
     
     for repo in repos:
-    print(repr(repo["name"]))
-    if repo["name"] in EXCLUDED_REPOS:
-        print(f"Excluding {repo['name']}")
-        continue
+        print(repr(repo["name"]))
+        if repo["name"] in EXCLUDED_REPOS:
+            print(f"Excluding {repo['name']}")
+            continue
             
         for edge in repo["languages"]["edges"]:
             lang_name = edge["node"]["name"]
