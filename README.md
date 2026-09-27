@@ -54,9 +54,9 @@
 <!-- ### Galactic Metrics -->
 <table align="center" width="100%" cellspacing="0" cellpadding="0" style="background: #0a0a0a;">
   <tr>
-    <td width="50%" align="center" style="padding: 15px; background: #0a0a0a; border: 1px solid #1a1a1a;">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sanmitramukherjee&theme=tokyonight" width="100%" alt="Top Languages" style="max-width: 100%; height: auto;" />
-    </td>
+<td width="50%" align="center" style="padding: 15px; background: #0a0a0a; border: 1px solid #1a1a1a;">
+  <img src="./assets/custom-languages.png" width="100%" alt="Top Languages" style="max-width: 100%; height: auto;" />
+</td>
     <td width="50%" align="center" style="padding: 15px; background: #0a0a0a; border: 1px solid #1a1a1a;">
       <img src="https://github-readme-streak-stats.herokuapp.com?user=sanmitramukherjee&theme=tokyonight" width="100%" alt="GitHub Streak" style="max-width: 100%; height: auto;" />
     </td>
