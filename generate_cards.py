@@ -43,7 +43,7 @@ def fetch_repositories():
     
     while has_next_page:
         variables = {"login": USERNAME, "endCursor": end_cursor}
-        response = requests.post("https://api.github.com/graphql", json={"query": query, "variables": variables}, headers=headers)
+        response = requests.post("https://github.com", json={"query": query, "variables": variables}, headers=headers)
         if response.status_code != 200:
             raise Exception(f"GraphQL Query failed: {response.text}")
         data = response.json()["data"]["user"]["repositories"]
@@ -79,25 +79,32 @@ def main():
     sizes = [x[1] for x in sorted_langs]
     colors = [lang_colors.get(l, "#cccccc") for l in labels]
 
+    # Clean the matplotlib cache state completely 
+    plt.clf()
+    plt.close('all')
     plt.style.use('dark_background')
     
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9.5, 4.5), facecolor='#0a0a0a', gridspec_kw={'width_ratios': [1.2, 1]})
-    ax1.set_facecolor('#0a0a0a')
-    ax2.set_facecolor('#0a0a0a')
-    ax2.axis('off') 
+    # Create the figure with explicit dimensions
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5), facecolor='#0a0a0a', gridspec_kw={'width_ratios': [1.2, 1]})
     
-    # 🌟 CRITICAL FIX: Lock the text panel coordinates so elements do not shrink down
-    ax2.set_xlim(0, 1)
-    ax2.set_ylim(0, 1)
-
+    # 🌟 FORCE COLUMN 1: Donut Chart Scale
+    ax1.set_facecolor('#0a0a0a')
+    ax1.axis('equal')  # Forces the pie chart to maintain a perfect square/circle shape
+    
     wedges, texts, autotexts = ax1.pie(
         sizes, labels=labels, colors=colors, autopct='%1.1f%%', 
-        startangle=140, pctdistance=0.75, textprops=dict(color="#a9b1d6", weight="bold", fontsize=10)
+        startangle=140, pctdistance=0.70, textprops=dict(color="#a9b1d6", weight="bold", fontsize=10)
     )
 
     centre_circle = plt.Circle((0,0), 0.50, fc='#0a0a0a')
     ax1.add_artist(centre_circle)
     ax1.set_title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=12, weight="bold", pad=15)
+
+    # 🌟 FORCE COLUMN 2: Text Layout Scale
+    ax2.set_facecolor('#0a0a0a')
+    ax2.axis('off') 
+    ax2.set_xlim(0, 1)
+    ax2.set_ylim(0, 1)
 
     ax2.text(0.0, 0.85, "📊 Code Volume Breakdown", color="#00FFCC", fontsize=13, weight="bold")
     
@@ -106,11 +113,11 @@ def main():
         lines_of_code = int(byte_size / 35)
         loc_text = f"{lines_of_code:,} lines" if lines_of_code > 0 else f"{byte_size} bytes"
         
-        # Color Box Marker adjusted for the new clean bounding coordinates
-        ax2.plot(0.05, y_pos + 0.03, marker='s', color=lang_colors.get(label, "#cccccc"), markersize=8)
+        # Draw explicit tiny markers using absolute layout coordinates
+        ax2.scatter(0.05, y_pos + 0.03, color=lang_colors.get(label, "#cccccc"), marker='s', s=60)
 
         ax2.text(0.12, y_pos, f"{label}:", color="#ffffff", fontsize=11, weight="bold")
-        ax2.text(0.55, y_pos, loc_text, color="#a9b1d6", fontsize=11)
+        ax2.text(0.52, y_pos, loc_text, color="#a9b1d6", fontsize=11)
         y_pos -= 0.12
         
     plt.tight_layout()
