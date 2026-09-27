@@ -73,21 +73,21 @@ def main():
     if not lang_counts:
         return
 
-    # 🌟 FIX 1: Sort cleanly by byte counts (x[1]), NOT language name strings
+    # 🌟 THE FIX: Explicitly sort using x[1] to isolate byte sizes, not the tuple strings
     sorted_langs = sorted(lang_counts.items(), key=lambda x: x[1], reverse=True)[:5]
     labels = [x[0] for x in sorted_langs]
     sizes = [x[1] for x in sorted_langs]
     colors = [lang_colors.get(l, "#cccccc") for l in labels]
 
-    # Clean the matplotlib engine states
+    # Clean previous canvas allocations completely
     plt.clf()
     plt.close('all')
     plt.style.use('dark_background')
     
-    # Create side-by-side canvas
+    # Structure full side-by-side plot frames
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4.5), facecolor='#0a0a0a', gridspec_kw={'width_ratios': [1.2, 1]})
     
-    # Left Side: High-res Donut Chart
+    # Left Side: Donut Chart Config
     ax1.set_facecolor('#0a0a0a')
     wedges, texts, autotexts = ax1.pie(
         sizes, labels=labels, colors=colors, autopct='%1.1f%%', 
@@ -98,7 +98,7 @@ def main():
     ax1.add_artist(centre_circle)
     ax1.set_title("Top Languages (Inc. Orgs & Forks)", color="#00FFCC", fontsize=12, weight="bold", pad=15)
 
-    # 🌟 FIX 2: Explicitly lock text panel size properties so it cannot compress the chart
+    # Right Side: Fixed Absolute Dimension Text Box Config
     ax2.set_facecolor('#0a0a0a')
     ax2.axis('off') 
     ax2.set_xlim(0, 1)
@@ -111,7 +111,7 @@ def main():
         lines_of_code = int(byte_size / 35)
         loc_text = f"{lines_of_code:,} lines" if lines_of_code > 0 else f"{byte_size} bytes"
         
-        # Color Box Marker
+        # Plot precise bounding coordinates for clean label markers
         ax2.scatter(0.05, y_pos + 0.03, color=lang_colors.get(label, "#cccccc"), marker='s', s=50)
 
         ax2.text(0.12, y_pos, f"{label}:", color="#ffffff", fontsize=11, weight="bold")
